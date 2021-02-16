@@ -19,7 +19,7 @@ public class Card implements Comparable<Card> {
   }
 
  public String getSymbol() {
-    return String.format("%s%s", rank.symbol(), suit.symbol());
+    return String.format("%s%s", rank.symbol(), suit.getSymbol());
  }
 
   @Override
